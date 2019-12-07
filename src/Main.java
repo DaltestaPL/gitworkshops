@@ -14,8 +14,7 @@ import java.util.Arrays;
 
 
 
-final class Main{
-
+final class Main {
 
     static final String [] alphabetLetters() {
         String[] table = {"A", "B", "C", "D", "E"};
@@ -40,6 +39,9 @@ final class Main{
         num = num.subract(new MyNumber(5));
         System.out.println("roznice  " +num);
 
+
+        Human hum= new Human("Tom","male",25,75,185);
+
         Rectangle rect = new Rectangle(10, 5);
         float P = rect.fieldRectangle();
         System.out.println("Pole prostokąta: " + P);
@@ -53,6 +55,4 @@ final class Main{
         printName();
         System.out.println(Arrays.toString(alphabetLetters()));
     }
-
-    }
-
+}
