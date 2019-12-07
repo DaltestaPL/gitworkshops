@@ -8,5 +8,6 @@ final class Main {
     public static void main(String[] args) {
         System.out.println("First change in project");
         System.out.println("Second change in project");
+        System.out.println("Second change in project");
     }
 }
