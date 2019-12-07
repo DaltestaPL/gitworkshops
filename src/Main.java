@@ -43,11 +43,6 @@ final class Main {
         Human hum= new Human("Tom","male",25,75,185);
         System.out.println(hum.toString());
 
-
-
-
-
-
         Rectangle rect = new Rectangle(10, 5);
         float P = rect.fieldRectangle();
         System.out.println("Pole prostokąta: " + P);
