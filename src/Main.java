@@ -10,6 +10,7 @@ final class Main {
         System.out.println("Denys");
         System.out.println("Mateusz");
         System.out.println("Program");
+        System.out.println("Program Andrii");
         System.out.println("merge linia nowa");
         System.out.println("Nowa zmiana");
         System.out.println("Hello, hello");
