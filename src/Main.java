@@ -26,6 +26,7 @@ final class Main {
     }
 
     public static void main(String[] args) {
+        System.out.println("New to commit");
 
         double value = 5;
         MyNumber num = new MyNumber(value);
