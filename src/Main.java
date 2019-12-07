@@ -26,6 +26,9 @@ final class Main {
     }
 
     public static void main(String[] args) {
+
+        Human hum= new Human("Tom","male",25,75,185);
+
         Rectangle rect = new Rectangle(10, 5);
         float P = rect.fieldRectangle();
         System.out.println("Pole prostokąta: " + P);
