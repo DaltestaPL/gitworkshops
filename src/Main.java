@@ -6,6 +6,10 @@
  **/
 final class Main {
     public static void main(String[] args) {
+
+        Human hum= new Human("Tom","male",25,75,185);
+
+
         
     }
 }
