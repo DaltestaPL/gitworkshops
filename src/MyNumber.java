@@ -4,7 +4,7 @@
  * @author d.skeylz@gmail.com
  * @since 07.12.2019
  **/
-public final class MyNumber {
+public class MyNumber {
 
 
         private double value;
@@ -29,8 +29,8 @@ public final class MyNumber {
             return new MyNumber(Math.pow(value, pow.value));
         }
 
-        public MyNumber add(MyNumber otherValue) {
-            return new MyNumber(value + otherValue.value);
+        public MyNumber add(double otherValue) {
+            return new MyNumber(value + otherValue);
         }
 
         public MyNumber subract(MyNumber otherValue) {
@@ -47,4 +47,4 @@ public final class MyNumber {
 
 
 
-}
+

@@ -14,7 +14,8 @@ import java.util.Arrays;
 
 
 
-final class Main {
+final class Main{
+
 
     static final String [] alphabetLetters() {
         String[] table = {"A", "B", "C", "D", "E"};
@@ -26,6 +27,19 @@ final class Main {
     }
 
     public static void main(String[] args) {
+
+        double value = 5;
+        MyNumber num = new MyNumber(value);
+      boolean odd = num.isOdd();
+        System.out.println("Znaczenie Nie parzysty " +odd);
+      boolean add = num.isEven();
+        System.out.println("Znaczenie Parzysty " +add);
+        int d = 4;
+        num = num.add(2.0);
+        System.out.println("add num " +num);
+        num = num.subract(new MyNumber(5));
+        System.out.println("roznice  " +num);
+
         Rectangle rect = new Rectangle(10, 5);
         float P = rect.fieldRectangle();
         System.out.println("Pole prostokąta: " + P);
@@ -39,4 +53,6 @@ final class Main {
         printName();
         System.out.println(Arrays.toString(alphabetLetters()));
     }
-}
+
+    }
+
