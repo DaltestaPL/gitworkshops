@@ -34,7 +34,7 @@ final class Main {
         System.out.println("Znaczenie Nie parzysty " +odd);
       boolean add = num.isEven();
         System.out.println("Znaczenie Parzysty " +add);
-        int d = 4;
+        int d = 5;
         num = num.add(2.0);
         System.out.println("add num " +num);
         num = num.subract(new MyNumber(5));
