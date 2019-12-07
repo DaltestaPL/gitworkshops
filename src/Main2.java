@@ -6,7 +6,7 @@
  **/
 public final class Main2 {
     public static void main(String[] args) {
-        System.out.println("New class");
+        System.out.println("New class22qqssss22222");
     }
 
 }
