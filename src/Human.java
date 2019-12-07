@@ -29,12 +29,14 @@ public class Human {
         return weight;
     }
 
-
-
-
-
-
-
-
-
+    @Override
+    public String toString() {
+        return "Human{" +
+                "name='" + name + '\'' +
+                ", sex='" + sex + '\'' +
+                ", age=" + age +
+                ", weight=" + weight +
+                ", height=" + height +
+                '}';
+    }
 }
