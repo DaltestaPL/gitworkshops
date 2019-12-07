@@ -7,7 +7,7 @@
 public final class Main2 {
     public static void main(String[] args) {
         System.out.println("Tomek ");
-        System.out.println(" ");
+        System.out.println("   ");
     }
 
 }
