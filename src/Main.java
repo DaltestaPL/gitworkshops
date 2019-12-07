@@ -11,6 +11,9 @@ import java.util.Arrays;
  *    - metodę, która zwróci tablicę String[] zawierającą pierwsze 5 liter alfabetu,
  *    - metodę, która wyświetli Wasze imię
  **/
+
+
+
 final class Main {
 
     static final String [] alphabetLetters() {
@@ -23,6 +26,16 @@ final class Main {
     }
 
     public static void main(String[] args) {
+        Rectangle rect = new Rectangle(10, 5);
+        float P = rect.fieldRectangle();
+        System.out.println("Pole prostokąta: " + P);
+
+        float O = rect.circumferenceRectangle();
+        System.out.println("Obwód prostokąta: " + O);
+
+        double przekatna = rect.diagonal();
+        System.out.println("Przekątna prostokąta: " + przekatna);
+
         printName();
         System.out.println(Arrays.toString(alphabetLetters()));
     }
